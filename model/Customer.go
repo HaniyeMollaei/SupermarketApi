@@ -1,9 +1,16 @@
 package model
 
+import "time"
+
 type Customer struct {
-	CName    string `json:"name"`
-	CTel     int64  `json:"tel"`
-	CAddress string `json:"address"`
-	CID      int64  `json:"id"`
-	//cRegisterDate time.Time `json:"date"`
+	Name         string    `json:"cName"`
+	Tel          int64     `json:"cTel"`
+	Address      string    `json:"cAddress"`
+	ID           int       `json:"cID"`
+	RegisterDate time.Time `json:"cRegisterDate"`
 }
+
+var (
+	Users = map[int]*Customer{}
+	Seq   = 1
+)

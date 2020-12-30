@@ -11,17 +11,22 @@ import (
 func main() {
 	e := echo.New()
 
-	if err := e.Start("0.0.0.0:8080"); err != nil {
-		fmt.Println(err)
-	}
 	e.GET("/customers", handler.Read)
-	e.POST("/customers", handler.Customer{}.Create2)
+	e.POST("/customers", handler.Customer{}.Create)
+	e.PUT("/customers/:cID", handler.Update)
+	e.DELETE("/customers/:cID", handler.DeleteUser)
+
+	e.GET("/report/:month", handler.GetReport)
+
+	if err := e.Start("0.0.0.0:8080"); err != nil {
+		fmt.Println("error in start server : ", err)
+	}
 
 	c := model.Customer{
-		CName:    "haniye",
-		CID:      1,
-		CAddress: "tehran",
-		CTel:     1234,
+		Name:    "haniye",
+		ID:      1,
+		Address: "tehran",
+		Tel:     1234,
 		//cRegisterDate:
 	}
 	b, err := json.Marshal(c)

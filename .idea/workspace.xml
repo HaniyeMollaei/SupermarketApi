@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f54280-f31f-453c-9246-6bc8cfc06b3e" name="Default Changelist" comment="" />
+    <list default="true" id="76f54280-f31f-453c-9246-6bc8cfc06b3e" name="Default Changelist" comment="first steps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/crud.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/crud.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Customer.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/Customer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermarket-server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/supermarket-server.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +61,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="first steps" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
