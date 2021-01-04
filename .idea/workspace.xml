@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f54280-f31f-453c-9246-6bc8cfc06b3e" name="Default Changelist" comment="implement crud main functionality">
+    <list default="true" id="76f54280-f31f-453c-9246-6bc8cfc06b3e" name="Default Changelist" comment="complete without bonus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/crud.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/crud.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Customer.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/Customer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first steps" />
     <MESSAGE value="implement crud main functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement crud main functionality" />
+    <MESSAGE value="complete without bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete without bonus" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
