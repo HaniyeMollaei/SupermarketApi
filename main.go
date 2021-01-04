@@ -17,7 +17,7 @@ func main() {
 	e.DELETE("/customers/:cID", handler.DeleteUser)
 
 	e.GET("/report/:month", handler.GetReport)
-
+	e.GET("/report", handler.GetGeneralReport)
 	if err := e.Start("0.0.0.0:8080"); err != nil {
 		fmt.Println("error in start server : ", err)
 	}
